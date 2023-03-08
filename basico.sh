@@ -31,7 +31,7 @@ sudo systemctl start httpd
 # Una vez compiado, si es reiniciado el servicio de apache, deberá configurar los nuevos archivos creados.
 # Donde dice cambiar sustituir.
 cd ~/
-git clone git clone https://github.com/darvybm/CarrerasPOS.git
+git clone https://github.com/gabrielcepedag/open-house.git && cd open-house/
 sudo cp seguro.conf /etc/httpd/conf.d/
 sudo cp proxyreverso.conf /etc/httpd/conf.d/
 
@@ -39,5 +39,5 @@ sudo systemctl reload httpd
 
 # Clonando el proyecto de Javalin-demo e iniciando la aplicación, escuchando en el puerto 7003
 cd ~/
-
+git clone https://github.com/darvybm/CarrerasPOS.git
 echo "Script completado!..."
