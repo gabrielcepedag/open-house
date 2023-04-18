@@ -1,0 +1,3 @@
+[submodule "CarrerasPOS"]
+	path = CarrerasPOS
+	url = https://github.com/darvybm/CarrerasPOS.git
